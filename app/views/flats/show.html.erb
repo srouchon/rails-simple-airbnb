@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="flat-content">
+    <div>
+      <h1><%= @flat.name %></h1>
+    </div>
+    <div>
+      <p><%= @flat.address %></p>
+    </div>
+    <div class="description">
+      <h2>A bit more about this flat...</h2>
+      <p><%= @flat.description %></p>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="book"></div>
+    <div class="details">
+      <h2>Details</h2>
+      <div>
+        <p><i class="fas fa-user-friends"></i>  <%= @flat.number_of_guests %></p>
+        <p><i class="fas fa-euro-sign"></i>  <%= @flat.price_per_night %></p>
+      </div>
+    </div>
+    <div class="social-share">
+      <h2>Share</h2>
+      <div class="icons">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+    </div>
+  </div>
+</div>

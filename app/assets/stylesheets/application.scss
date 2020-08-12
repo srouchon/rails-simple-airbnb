@@ -1,0 +1,29 @@
+@import "bootstrap/scss/bootstrap";
+
+.navbar {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.ml-auto {
+  display:flex;
+}
+
+.cards {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap:24px;
+}
+
+.card-body {
+  padding: 16px 16px;
+  background-color: #f8f9fa;
+}
+
+.card-body h2 {
+  font-size: 24px;
+}
+
+.card-btn {
+  padding:16px 16px;
+}
